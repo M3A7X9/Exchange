@@ -5,7 +5,7 @@ import json
 
 
 def exchange():
-    code = entry.get()
+    code = entry.get().upper()
 
     if code:
         try:
